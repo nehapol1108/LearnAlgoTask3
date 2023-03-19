@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="donate.css" />
+  </head>
+
+  <body>
+    <div >
+      <nav
+        class="flex items-center lg:justify-center flex-wrap bg-[#0c4a6e] p-6"
+      >
+        <a href="/" class="flex items-center flex-shrink-0 text-white mr-6 space-x-4">
+          <img
+            src="images/logo.webp"
+            alt=""
+            class="logoo w-[50px] h-[50px]"
+          />
+          <span class="font-semibold text-5xl tracking-tight"
+            >Money Donation Website</span
+          >
+        </a>
+       
+      </nav>
+
+      <div class="flex justify-center m-40">
+        
+
+        <div class="text-black flex-col w-[500px] space-y-8">
+          <h1 class="font-bold text-5xl">
+            “Happiness doesn’t result from what we get, but from what we give."
+          </h1>
+          <p class="space-y-8 text-3xl">
+            Your voluntary contributions will strengthen the organization and
+            support the activities of our donation organization.
+            
+          </p>
+          <p class="space-y-8 text-3xl">
+            Click on the button in the left and proceed for the payment.
+            You will get an email once the donation is done successfully containing the payment reciept.
+            
+          </p>
+
+          <p class="space-y-8 text-4xl">
+           
+            Thank you very much for visiting our website.
+          </p>
+        </div>
+        <div class="flex justify-center items-center w-[600px]">
+          <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LTSncH5ErOXLmt" async>
+            </script>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

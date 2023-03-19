@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.icon-bar {
+    background-color: white;
+}
+
+.container-fluid {
+    background-color: #00b63a;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    html {
+        overflow: hidden;
+        width: 100%;
+    }
+
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-image: url("images/bg.jpeg");
+        background-size: cover;
+        height: 600px;
+
+    }
+}
+
+.top-nav-right {
+    float: right;
+    overflow: hidden;
+    margin-right: 0px;
+}
+
+.main_1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.button-donate {
+    align-items: center;
+    background-color: rgb(244, 66, 66);
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+.button-donate:hover {
+    transform: translate(0, 0);
+    background-color: rgb(238, 117, 117);
+}
+
+
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+.logoo{
+    border-radius: 50%;
+    margin:10px;
+}
